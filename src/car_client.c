@@ -62,7 +62,7 @@ int main(int argc, char const *argv[]) {
                 distance_covered -= TRACK_LENGTH_KM;
             }
         }
-        usleep(8000);  // increse this for making the  time for 5 - 6 mins make it 8000
+        usleep(100);  // increse this for making the  time for 5 - 6 mins make it 8000
     }
 
     fclose(file);
